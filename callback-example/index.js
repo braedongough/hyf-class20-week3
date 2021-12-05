@@ -13,3 +13,16 @@ const getNumber5 = () => {
 }
 
 console.log(myCoolFunction(getNumber5()))
+
+function addEventListener(eventType, callback) {
+  const event = {
+    pageY: 100,
+    pageX: 200,
+  }
+
+  if (eventType === 'mousemove') {
+    callback(event)
+  }
+}
+
+addEventListener('mousemove', (event) => {})
