@@ -25,4 +25,6 @@ function addEventListener(eventType, callback) {
   }
 }
 
-addEventListener('mousemove', (event) => {})
+addEventListener('mousemove', (event) => {
+  braedon.pageX
+})
